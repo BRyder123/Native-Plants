@@ -1,0 +1,100 @@
+.myLogo {
+  width: 7%;
+  height: 110px;
+  float: left;
+  padding: 4px;
+  }
+.myPage {
+  }
+  .MyHeader {
+  width: 92.05%;
+  background-color: yellow;
+  height: 120px;
+  padding: 5px;
+  float: left;
+  }
+  .left_panel {
+  width: 10%;
+  background-color: pink;
+  height: 450px;
+  padding: 5px;
+  float: left;
+  }
+  .contents1 {
+  width: 88.9%;
+  background-color: green;
+  height: 450px;
+  padding: 5px;
+  float: left;
+  }
+
+  .myFooter {
+  width: 99.7%;
+  background-color: orange;
+  height: 250px;
+  padding: 5px;
+  float: left;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+    li {
+    float: left;
+    }
+
+    li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    }
+
+    li.dropdown {
+    display: inline-block;
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+    }
+
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+    .dropdown-content a:hover {background-color: #bbb;}
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+    .myFooter {
+  text-align: center;
+  padding: 3px;
+  background-color: orange;
+  color: rgb(81, 17, 83);
+  }
+
+    .mySearch {
+    text-align: left;
+    align: right;
+    }
